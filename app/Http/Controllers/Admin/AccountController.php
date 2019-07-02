@@ -45,6 +45,8 @@ class AccountController extends Controller
      */
     public function store(Request $request)
     {
+
+
         $data = request()->validate([
             'id_account' => 'required',
             'comments' => 'required',
