@@ -17,3 +17,5 @@ Route::resources([
     '/admin/user_state' => 'Admin\UserStateController',
     '/admin/type_account' => 'Admin\TypeAccountController'
 ]);
+
+Route::post('/sendfix/')->name('sendfix');

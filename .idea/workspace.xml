@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56ec8ec9-6909-442d-84d1-9dc74d10b728" name="Default Changelist" comment="" />
+    <list default="true" id="56ec8ec9-6909-442d-84d1-9dc74d10b728" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -52,29 +57,23 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UserController.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="111" column="60" selection-start-line="111" selection-start-column="60" selection-end-line="111" selection-end-column="60" />
-              <folding>
-                <element signature="e#46#75#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AccountController.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
-              <caret line="102" selection-start-line="102" selection-end-line="111" selection-end-column="112" />
+            <state relative-caret-position="277">
+              <caret line="89" column="62" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
               <folding>
-                <element signature="e#46#75#0#PHP" expanded="true" />
-                <element signature="e#261#362#0#PHP" />
-                <element signature="e#733#842#0#PHP" />
-                <element signature="e#1046#1205#0#PHP" />
+                <element signature="e#3295#3302#1#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,7 +92,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/user_state.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/account_type.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/account.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/session.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c893179e-b690-4884-996b-b56baeb5aa24/console.sql" />
         <option value="$PROJECT_DIR$/resources/views/admin/users_state/created.blade.php" />
@@ -104,13 +102,10 @@
         <option value="$PROJECT_DIR$/app/Models/Admin/TypeAccount.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/account_type/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Admin/UserState.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/type_account/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/type_account/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/type_account/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/TypeAccountController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AccountController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/account/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/account/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Admin/User.php" />
@@ -124,6 +119,9 @@
         <option value="$PROJECT_DIR$/resources/views/admin/user_state/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/account/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AccountController.php" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
       </list>
     </option>
@@ -213,7 +211,7 @@
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="486" />
     <option name="y" value="1" />
     <option name="width" value="694" />
@@ -225,51 +223,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
@@ -292,13 +252,20 @@
             <path>
               <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProyectUtah" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProyectUtah" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,17 +317,19 @@
       <option name="presentableId" value="Default" />
       <updated>1561401772460</updated>
       <workItem from="1561401777194" duration="82650000" />
-      <workItem from="1562086008566" duration="724000" />
+      <workItem from="1562086008566" duration="2505000" />
+      <workItem from="1562289317462" duration="7118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83374000" />
+    <option name="totallyTimeSpent" value="92273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26519758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22541603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -467,20 +436,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c893179e-b690-4884-996b-b56baeb5aa24/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c893179e-b690-4884-996b-b56baeb5aa24/console.sql" />
     <entry file="das://c893179e-b690-4884-996b-b56baeb5aa24/schema/laravel/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state projectRestartId="5dd8687d-4dda-436d-b802-2501f393319d">
@@ -605,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/TypeAccountController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -677,20 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/account/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AccountController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -714,6 +649,44 @@
           <caret line="111" column="60" selection-start-line="111" selection-start-column="60" selection-end-line="111" selection-end-column="60" />
           <folding>
             <element signature="e#46#75#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/account/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="89" column="62" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
+          <folding>
+            <element signature="e#3295#3302#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
